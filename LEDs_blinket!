@@ -17,27 +17,27 @@ GPIO.setup(Y, GPIO.OUT, initial=GPIO.LOW)
 GPIO.setup(W, GPIO.OUT, initial=GPIO.LOW)
 
 while True: # Run forever
-  GPIO.output(R, GPIO.HIGH) # Turn on
-  sleep(1) # Sleep for 1 second
-  GPIO.output(R, GPIO.LOW) # Turn off
-  sleep(1) # Sleep for 1 second
-  
-  GPIO.output(G, GPIO.HIGH) # Turn on
-  sleep(1) # Sleep for 1 second
-  GPIO.output(G, GPIO.LOW) # Turn off
-  sleep(1) # Sleep for 1 second
-  
-  GPIO.output(B, GPIO.HIGH) # Turn on
-  sleep(1) # Sleep for 1 second
-  GPIO.output(B, GPIO.LOW) # Turn off
-  sleep(1) # Sleep for 1 second
-  
-  GPIO.output(W, GPIO.HIGH) # Turn on
-  sleep(1) # Sleep for 1 second
-  GPIO.output(W, GPIO.LOW) # Turn off
-  sleep(1) # Sleep for 1 second
-  
-  GPIO.output(Y, GPIO.HIGH) # Turn on
-  sleep(1) # Sleep for 1 second
-  GPIO.output(Y, GPIO.LOW) # Turn off
-  sleep(1) # Sleep for 1 second
+    GPIO.output(R, GPIO.HIGH) # Turn on
+    sleep(1) # Sleep for 1 second
+    GPIO.output(R, GPIO.LOW) # Turn off
+    sleep(1) # Sleep for 1 second
+
+    GPIO.output(G, GPIO.HIGH) # Turn on
+    sleep(1) # Sleep for 1 second
+    GPIO.output(G, GPIO.LOW) # Turn off
+    sleep(1) # Sleep for 1 second
+
+    GPIO.output(B, GPIO.HIGH) # Turn on
+    sleep(1) # Sleep for 1 second
+    GPIO.output(B, GPIO.LOW) # Turn off
+    sleep(1) # Sleep for 1 second
+
+    GPIO.output(W, GPIO.HIGH) # Turn on
+    sleep(1) # Sleep for 1 second
+    GPIO.output(W, GPIO.LOW) # Turn off
+    sleep(1) # Sleep for 1 second
+
+    GPIO.output(Y, GPIO.HIGH) # Turn on
+    sleep(1) # Sleep for 1 second
+    GPIO.output(Y, GPIO.LOW) # Turn off
+    sleep(1) # Sleep for 1 second
